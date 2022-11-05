@@ -13,7 +13,7 @@ from ast import main
 
 
 class Producto(): #creamos un clase y definimos los atributos 
-    def __init__(self, codigo, nombre, precio, tipo):
+    def __init__(self, codigo, nombre, precio, tipo):#Constructor con los atributos
         self.codigo=codigo
         self.nombre=nombre
         self.precio=precio
