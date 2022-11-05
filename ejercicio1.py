@@ -20,10 +20,11 @@ class Alumno():
     def calificacion(self):
         return print("{} ha aprobado con {}".format(self.nombre, self.nota)) if self.nota >= 5 else print("{} ha suspendido con {}".format(self.nombre, self.nota))
 
-nombre1=Alumno("Rosario", 7)
-Alumno.calificacion(nombre1)
-nombre2=Alumno("Petra", 10)
-Alumno.calificacion(nombre2)
-nombre3=Alumno("Rosa", 3)
-Alumno.calificacion(nombre3)
 
+if "__name__"=="__main__":
+    nombre1=Alumno("Rosario", 7)
+    Alumno.calificacion(nombre1)
+    nombre2=Alumno("Petra", 10)
+    Alumno.calificacion(nombre2)
+    nombre3=Alumno("Rosa", 3)
+    Alumno.calificacion(nombre3)
