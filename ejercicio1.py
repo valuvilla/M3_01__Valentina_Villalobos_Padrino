@@ -12,13 +12,16 @@ Prueba a ejecutar el método calificacion de cada objeto que has creado
 """
 class Alumno():
     def __init__(self, nombre, nota):
-        self.nombre= "Valentina"
-        self.nota= 10
-        print("Creaccion del usuario con éxito\nNombre: {}\nNota: {}".format(nombre, nota))
+        self.nombre= nombre
+        self.nota= nota
+        print("Creaccion del usuario con éxito")
 
 
     def calificacion(self):
         return print("{} ha aprobado con {}".format(self.nombre, self.nota)) if self.nota >= 5 else print("{} ha suspendido con {}".format(self.nombre, self.nota))
 
-nombre=Alumno("Rosario", 7) 
-Alumno.calificacion(nombre)
+nombre1=Alumno("Rosario", 7)
+nombre2=Alumno("Petra", 10)
+
+Alumno.calificacion(nombre1)
+Alumno.calificacion(nombre2)
