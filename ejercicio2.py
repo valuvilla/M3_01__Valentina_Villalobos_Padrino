@@ -11,19 +11,29 @@ Crea algun objeto de la clase Alumno
 Realiza print de esos objetos para visualizar por pantalla la información del str
 """
 
-class Alumno2():
+from ast import main
+
+
+class Alumno_copy(): #creamos un clase
     def __init__(self, nombre, nota):
         self.nombre= nombre
         self.nota= nota
         
 
 
-    def calificacion(self):
-        return print("{} ha aprobado con {}".format(self.nombre, self.nota)) if self.nota >= 5 else print("{} ha suspendido con {}".format(self.nombre, self.nota))
+    def calificacion(self): #definimos un metodo que evalue si la persona ha aprobado
+        return "{} ha aprobado con {}".format(self.nombre, self.nota) if self.nota >= 5 else "{} ha suspendido con {}".format(self.nombre, self.nota)
 
-    def __str__(self):
-        print("{} ha sacado un {}".format(self.nombre, self.nota))
-        return 
+    def __str__(self): #utilizamos __str__ para mostrar la información
+        return "{} ha sacado un {}".format(self.nombre, self.nota)
+ 
+#experimentación
+nombre1=Alumno_copy("Rosario", 7)
+print(str(nombre1))
+nombre2=Alumno_copy("Cristina", 10)
+print(str(nombre2))
 
-nombre1=Alumno2("Rosario", 7)
-nombre1.__str__()
+
+#importamos el ejercicio para que se ejecute en el main
+if "__name__"=="__main__":
+    main()

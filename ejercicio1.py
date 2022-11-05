@@ -10,23 +10,32 @@ Experimentación
 Crea algunos alumnos
 Prueba a ejecutar el método calificacion de cada objeto que has creado
 """
-class Alumno():
-    def __init__(self, nombre, nota):
+
+
+from ast import main
+
+
+class Alumno(): #creamos un clase
+    def __init__(self, nombre, nota): #Constructor con los atributos
         self.nombre= nombre
         self.nota= nota
-        print("Creaccion del usuario con éxito")
+        print("Creaccion del usuario con éxito") #print para informar que la operacion ha sido éxito
 
 
-    def calificacion(self):
-        return print("{} ha aprobado con {}".format(self.nombre, self.nota)) if self.nota >= 5 else print("{} ha suspendido con {}".format(self.nombre, self.nota))
+    def calificacion(self): #definimos un metodo que evalue si la persona ha aprobado
+        return "{} ha aprobado con un {}".format(self.nombre, self.nota) if self.nota >= 5 else "{} ha suspendido con un {}".format(self.nombre, self.nota)
 
 
+#experimentación
+nombre1=Alumno("Rosario", 7)
+print(Alumno.calificacion(nombre1))
+nombre2=Alumno("Cristina", 10)
+print(Alumno.calificacion(nombre2))
+nombre3=Alumno("Rosa", 3)
+print(Alumno.calificacion(nombre3))
 
 
+#importamos el ejercicio para que se ejecute en el main
 if "__name__"=="__main__":
-    nombre1=Alumno("Rosario", 7)
-    Alumno.calificacion(nombre1)
-    nombre2=Alumno("Petra", 10)
-    Alumno.calificacion(nombre2)
-    nombre3=Alumno("Rosa", 3)
-    Alumno.calificacion(nombre3)
+    main()
+
