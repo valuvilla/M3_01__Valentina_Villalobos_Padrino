@@ -21,6 +21,8 @@ class Alumno():
         return print("{} ha aprobado con {}".format(self.nombre, self.nota)) if self.nota >= 5 else print("{} ha suspendido con {}".format(self.nombre, self.nota))
 
 
+
+
 if "__name__"=="__main__":
     nombre1=Alumno("Rosario", 7)
     Alumno.calificacion(nombre1)
