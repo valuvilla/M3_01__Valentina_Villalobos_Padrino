@@ -1,6 +1,6 @@
 # M3_01__Valentina_Villalobos_Padrino
- 
-Ejercicio 1
+ https://github.com/valuvilla/M3_01__Valentina_Villalobos_Padrino.git
+----Ejercicio 1-----
 Creación
 Crea una clase llamada Alumno que tenga los atributos nombre y nota
 Crea el constructor de la clase. Añadir en el constructor un print para informar de que el alumno se ha creado con éxito
@@ -8,7 +8,7 @@ Crear un método llamado calificacion que imprima por pantalla si el alumno ha a
 Experimentación
 Crea algunos alumnos
 Prueba a ejecutar el método calificacion de cada objeto que has creado
-Ejercicio 2
+---Ejercicio 2---
 Creación
 Copia el ejercicio anterior y realicemos una modificación:
 Junto al método init y calificacion, vamos a crear otro método especial de Python, el método str. Al igual que init, debe ir encerrado entre dobles guiones bajos, y debe tener el siguiente formato:
@@ -18,7 +18,7 @@ Experimentación
 Implementa el método str y haz que muestre el nombre y la nota del alumno
 Crea algun objeto de la clase Alumno
 Realiza print de esos objetos para visualizar por pantalla la información del str
-Ejercicio 3
+----Ejercicio 3----
 Creación
 Crea una clase llamada Producto que tenga los atributos codigo, nombre, precio y tipo.
 Crea el constructor de la clase. Añadir en el constructor un print para informar de que el producto se ha creado con éxito
