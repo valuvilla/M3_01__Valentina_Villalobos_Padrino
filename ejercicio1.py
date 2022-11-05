@@ -15,7 +15,7 @@ Prueba a ejecutar el método calificacion de cada objeto que has creado
 from ast import main
 
 
-class Alumno(): #creamos un clase
+class Alumno(): #creamos un clase con los atributos
     def __init__(self, nombre, nota): #Constructor con los atributos
         self.nombre= nombre
         self.nota= nota

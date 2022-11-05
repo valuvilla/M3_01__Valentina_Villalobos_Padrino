@@ -14,8 +14,8 @@ Realiza print de esos objetos para visualizar por pantalla la información del s
 from ast import main
 
 
-class Alumno_copy(): #creamos un clase
-    def __init__(self, nombre, nota):
+class Alumno_copy(): #creamos un clase con los atributos deseados
+    def __init__(self, nombre, nota):#Constructor con los atributos
         self.nombre= nombre
         self.nota= nota
         
