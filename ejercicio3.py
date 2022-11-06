@@ -32,5 +32,5 @@ producto1.precio=1.6 #modificamos el precio
 print(str(producto1))
 
 #importamos el ejercicio para que se ejecute en el main
-if "__name__"=="__main__":
+if __name__=="__main__":
     main()
