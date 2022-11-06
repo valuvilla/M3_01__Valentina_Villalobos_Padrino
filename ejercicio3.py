@@ -21,7 +21,7 @@ class Producto(): #creamos un clase y definimos los atributos
         print("Producto creado éxitosamente") #print para informar que la operacion ha sido éxito
     
     def __str__(self): #utilizamos __str__ para mostrar la información
-        return "{} pertenece a {}, tiene un coste de {} y es de un articulo tipo {}".format(self.codigo, self.nombre, self.precio, self.tipo)
+        return "{} pertenece a {}, tiene un coste de {}€ y es de un articulo tipo {}".format(self.codigo, self.nombre, self.precio, self.tipo)
 
 
 #Experimentación
