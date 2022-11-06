@@ -36,6 +36,6 @@ print(Alumno.calificacion(nombre3))
 
 
 #importamos el ejercicio para que se ejecute en el main
-if "__name__"=="__main__":
+if __name__=="__main__":
     main()
 
