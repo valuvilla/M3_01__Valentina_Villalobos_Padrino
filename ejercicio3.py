@@ -21,13 +21,15 @@ class Producto(): #creamos un clase y definimos los atributos
         print("Producto creado éxitosamente") #print para informar que la operacion ha sido éxito
     
     def __str__(self): #utilizamos __str__ para mostrar la información
-        return "{} pertenece a {}, tiene un coste de {}€ y es de un articulo tipo {}".format(self.codigo, self.nombre, self.precio, self.tipo)
+        return "{} es el código de barras del producto {}, tiene un coste de {}€ y es de un articulo tipo {}.".format(self.codigo, self.nombre, self.precio, self.tipo)
 
 
 #Experimentación
-producto1=Producto(8480000104892, "leche", 2.4, "lácteos")
+producto1=Producto(8480000104892, "Leche", 2.4, "lácteos")
+producto2=Producto(7501000120253, "Pan Bimbo", 1.49, "panadería")
 print(str(producto1))
-print("----BAJADA DE PRECIO---") 
+print(str(producto2))
+print("----BAJADA DE PRECIO de {}.upper---".format(producto1)) 
 producto1.precio=1.6 #modificamos el precio
 print(str(producto1))
 
