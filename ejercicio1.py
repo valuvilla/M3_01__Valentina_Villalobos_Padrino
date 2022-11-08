@@ -27,7 +27,7 @@ class Alumno(): #creamos un clase con los atributos
 
 
 #experimentación
-nombre1=Alumno("Rosario", 7)
+nombre1=Alumno("María", 7)
 print(Alumno.calificacion(nombre1))
 nombre2=Alumno("Cristina", 10)
 print(Alumno.calificacion(nombre2))
@@ -37,5 +37,5 @@ print(Alumno.calificacion(nombre3))
 
 #importamos el ejercicio para que se ejecute en el main
 if __name__=="__main__":
-    main()
+    Alumno()
 

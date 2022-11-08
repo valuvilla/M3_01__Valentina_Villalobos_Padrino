@@ -25,8 +25,8 @@ class Producto(): #creamos un clase y definimos los atributos
 
 
 #Experimentación
-producto1=Producto(8480000104892, "Leche", 2.4, "lácteos")
-producto2=Producto(7501000120253, "Pan Bimbo", 1.49, "panadería")
+producto1=Producto(8480000104892, "Leche", 2.4, "Lácteos")
+producto2=Producto(7501000120253, "Pan Bimbo", 1.49, "Panadería")
 print(str(producto1))
 print(str(producto2))
 print("----BAJADA DE PRECIO de {}.upper---".format(producto1)) 
@@ -35,4 +35,4 @@ print(str(producto1))
 
 #importamos el ejercicio para que se ejecute en el main
 if __name__=="__main__":
-    main()
+    Producto()
