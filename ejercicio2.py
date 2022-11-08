@@ -36,4 +36,4 @@ print(str(nombre2))
 
 #importamos el ejercicio para que se ejecute en el main
 if __name__=="__main__":
-    Alumno_copy()
+    main()
